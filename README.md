@@ -1,6 +1,6 @@
 # Nginx 网站内容
 
-这是私有仓库 `xik54/nginx-site-content` 的内容。它保存网站静态文件和 Nginx 站点模板；VPS 上的 `nginx-vps-installer` 使用只读 Deploy Key 每 5 分钟拉取一次，并在 `nginx -t` 成功后发布。
+这是公开仓库 `xik54/nginx-site-content` 的内容。它保存网站静态文件和 Nginx 站点模板；VPS 上的 `nginx-vps-installer` 每 5 分钟通过 HTTPS 拉取一次，并在 `nginx -t` 成功后发布。
 
 目录约定：
 
